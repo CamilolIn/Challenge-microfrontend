@@ -1,0 +1,47 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Borders
+$base-border-radius: 10px;
+
+// Colors
+$white: #FFFFFF;
+$black: #000000;
+$light-gray: #e0e0e0;
+$primary-pink: #cc2b5e;
+$primary-dark-blue: #1D3541;
+$primary-pale: #F5F7F7;
+$primary-purple: #753a88;
+
+//typography
+$Montserrat: 'Montserrat', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+
+$font-weights: (
+  lighter:300,
+  normal: 400,
+  bold: 600,
+  bolder: 700,
+  extra-bold: 800
+);
+
+$font-sizes: (
+  //headers sizes
+  h-extra: 60px,
+  h-large: 52px,
+  h-small: 44px,
+  h-1: 40px,
+  h-2: 36px,
+  h-3: 32px,
+  h-4: 28px,
+  h-5: 24px,
+
+  //paragraph sizes
+  large: 20px,
+  medium: 18px,
+  small: 16px,
+  legal: 14px,
+  legal-sm: 12px,
+  legal-xs: 10px,
+  legal-xxs: 8px
+);

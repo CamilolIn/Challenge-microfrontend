@@ -1,0 +1,37 @@
+@import '../sass/mixins.scss';
+@import '../sass/variables.scss';
+
+.host-app {
+  width: 100vw;
+  height: 100vh;
+  @include d-flex();
+  background-color: $primary-pale;
+
+  &-main {
+    width: 400px;
+    height: 600px;
+    @include d-flex(start, center);
+    flex-direction: column;
+    background: linear-gradient(to right, $primary-pink, $primary-purple);
+    border-radius: $base-border-radius;
+    padding: 16px;
+    text-align: center;
+    
+    h1 {
+      @include text-styles('h-1', 'bolder');
+      color: $white;
+    }
+
+    &__result {
+      width: 100%;
+      flex-grow: 2;
+      @include d-flex();
+    }
+
+    &__buttons {
+      width: 100%;
+      @include d-flex(center, end);
+      flex-grow: 1;
+    }
+  }
+}

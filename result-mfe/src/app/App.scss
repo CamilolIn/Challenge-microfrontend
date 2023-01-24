@@ -1,0 +1,14 @@
+@import '../sass/mixins.scss';
+@import '../sass/variables.scss';
+
+.result-app {
+  width: 80%;
+  height: 60%;
+  background-color: $white;
+  border-radius: $base-border-radius;
+  @include d-flex();
+
+  span {
+    @include text-styles('h-extra', 'bolder');
+  }
+}

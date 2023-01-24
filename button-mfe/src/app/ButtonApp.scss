@@ -1,0 +1,39 @@
+@import '../sass/mixins.scss';
+@import '../sass/variables.scss';
+
+.button-app {
+  width: 100%;
+  @include d-flex(space-between, center);
+
+  .button {
+    width: 150px;
+    height: 40px;
+    @include text-styles('small', 'bolder');
+    font-family: $Roboto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    &--clear {
+      background: transparent;
+      text-decoration: underline;
+      color: $white;
+
+      &:hover {
+        color: $primary-light-blue;
+      }
+    }
+
+    &--count {
+      border-radius: $button-border-radius;
+      background-color: $primary-dark-blue;
+      color: $white;
+      transition: all 0.35s;
+
+      &:hover {
+        background-color: $primary-light-blue;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore html files
+*.html
+
+# Ignore test files
+*.test.*
+*.spec.*
+
+# Ignore typescript declarations
+*.d.ts

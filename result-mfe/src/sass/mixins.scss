@@ -1,0 +1,11 @@
+@mixin text-styles($size: 'legal', $weight: 'normal') {
+  font-size: map-get($font-sizes, $size) !important;
+  font-weight: map-get($font-weights, $weight);
+  font-family: $Montserrat;
+}
+
+@mixin d-flex($x: center, $y: center) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
